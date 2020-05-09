@@ -6,11 +6,9 @@ import ReactDOM from 'react-dom'
 const Header = (props) => {
   return (
     <div>
-      <p>
-        <h1>
+      <h1>
           {props.course}
-        </h1>
-      </p>
+      </h1>
     </div>   
   )
 }
