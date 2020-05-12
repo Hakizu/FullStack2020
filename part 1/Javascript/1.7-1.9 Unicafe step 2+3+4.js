@@ -15,7 +15,7 @@ const Statistics = ({good, neutral, bad}) => {
       Neutral {neutral} <br/>
       Bad {bad} <br/>
       Average {(good * 1 + bad * (-1)) / (good + neutral + bad)} <br/>
-      Positive {good * 1 / bad * (-1)}
+      Positive {good * 100 / (bad+neutral+good) +"%"}/>
       </p>
   )
   }
