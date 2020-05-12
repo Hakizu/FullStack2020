@@ -18,7 +18,7 @@ const Statistics = ({good, neutral, bad}) => {
       Positive {good * 1 / bad * (-1)}
       </p>
   )
-}
+  }
 }
 
 const App = () => {
