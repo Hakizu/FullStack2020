@@ -7,7 +7,7 @@ const Button = ({onClick, text}) =>
     </button>
 
 const Statistics = ({good, neutral, bad}) => {
-  if (good+neutral+bad ===0) {return <p>No Feedback given</p>}
+  if (good+neutral+bad === 0) {return <p>No Feedback given</p>}
   if (good+neutral+bad > 0) {
   return(
       <p>
